@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Una tienda cualquiera</title>
+        <script src="carritotienda.js" defer></script>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+<body>
+    <h1> UNA TIENDA CUALQUIERA </h1>
+    <p id="estado" role="status">Cargando productos…</p>
+    <main>
+<section aria-label="Productos disponibles">
+<table>
+    <thead>
+    <tr>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+        <th>Subtotal</th>
+    </tr>
+    </thead>
+    <tbody id="productos"></tbody>
+</table>
+</section>
+
+<aside>
+    <h2>Tu carrito</h2>
+        <ul id="resumen"></ul>
+    <p class="total">TOTAL <strong id="total">0.00 €</strong></p>
+</aside>
+</body>
+</html>
